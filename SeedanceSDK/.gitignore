@@ -6,9 +6,13 @@
 venv/
 env/
 
+
 # 忽略缓存文件
 __pycache__/
 *.py[cod]
 
 # 忽略 macOS 系统产生的特殊文件（如果你团队有人用 Mac）
 .DS_Store
+
+# 忽略日志文件
+Logs/

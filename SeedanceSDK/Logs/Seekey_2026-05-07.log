@@ -1,4 +1,0 @@
-{"time": "17:19:54", "pid": 8340, "level": "INFO", "module": "Seekey", "message": "图像生成任务结束", "api_name": "Text2Image", "response_payload": {"status": "success", "data": {"image_url": "https://cdn.seekey.ai/v1/gen/abc12345.png", "seed": 987654321, "engine": "StableDiffusion-XL"}, "meta": {"request_id": "req_009876", "compute_node": "gpu-cluster-05"}}}
-{"time": "17:19:54", "pid": 8340, "level": "INFO", "module": "Seekey", "message": "AI_Image_Generation 完成", "duration_sec": 1.6144}
-{"time": "17:19:55", "pid": 8340, "level": "ERROR", "module": "Seekey", "message": "视频渲染失败", "context": {"error_code": "RENDER_TIMEOUT", "retry_count": 3, "last_frame": 124}, "node": "RenderNode-01"}
-{"time": "17:19:55", "pid": 8340, "level": "INFO", "module": "Seekey", "message": "Video_Rendering 完成", "duration_sec": 0.8025}
